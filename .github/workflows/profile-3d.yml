@@ -19,6 +19,6 @@ jobs:
         run: |
           git config user.name YuSangGon
           git config user.email yusang5159@naver.com
-          git add -A .
+          git add .
           git commit -m "generated"
-          git push
+          git push origin main
